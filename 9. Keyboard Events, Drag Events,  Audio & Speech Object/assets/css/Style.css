@@ -1,0 +1,46 @@
+/* 0.390625 * 100vh( telefon ucun 576px,  tablet 576px - 772px, */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.area {
+  width: 90%;
+  height: 90vh;
+  margin: 0 auto;
+  border: 1px solid #000000;
+  position: relative;
+}
+.area .man {
+  width: 15%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.area .man img {
+  width: 100%;
+}
+.area .home {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.area .home img {
+  width: 100%;
+}
+.area .finish {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.area .finish h1 {
+  color: orange;
+  font-size: 4rem;
+  text-shadow: 3px 15px 13px #ff0000;
+}/*# sourceMappingURL=Style.css.map */
